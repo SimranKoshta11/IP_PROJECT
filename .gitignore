@@ -1,0 +1,27 @@
+# Large dataset and result zip files (exceed GitHub's 100MB limit)
+*.zip
+
+# macOS system files
+__MACOSX/
+.DS_Store
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.env
+
+# Model weights (if large)
+*.h5
+*.pkl
+*.pt
+*.pth
