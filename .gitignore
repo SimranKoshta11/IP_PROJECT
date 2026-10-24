@@ -1,8 +1,7 @@
-# Large dataset files that exceed GitHub's 100MB limit
-Week1/baseline_dataset.zip
-Week1/vehicle dataset.zip
+# Large dataset and result zip files (exceed GitHub's 100MB limit)
+*.zip
 
-# macOS system files (not useful)
+# macOS system files
 __MACOSX/
 .DS_Store
 
@@ -20,3 +19,9 @@ __pycache__/
 venv/
 env/
 .env
+
+# Model weights (if large)
+*.h5
+*.pkl
+*.pt
+*.pth

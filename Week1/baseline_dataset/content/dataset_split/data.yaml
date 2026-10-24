@@ -1,0 +1,7 @@
+path: /content/dataset_split
+train: train/images
+val: val/images
+test: test/images
+
+nc: 6
+names: ['car', 'threewheel', 'bus', 'truck', 'motorbike', 'van']
